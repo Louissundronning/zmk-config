@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: zmk-keyboard-hillside38
-      url-base: https://github.com/Louissundronning
+      url-base: https://github.com/Louissundronning/zmk-keyboard-hillside38
   projects:
     - name: zmk
       remote: zmkfirmware
