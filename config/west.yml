@@ -3,14 +3,14 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: zmk-keyboard-hillside38
-      url-base: https://github.com/Louissundronning/zmk-keyboard-hillside38
+      url-base: https://github.com/Louissundronning
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-keyboard-hillside38
-      remote: zmk-keyboard-hillside38_base
+      remote: zmk-keyboard-hillside38
       revision: main
   self:
     path: config
